@@ -1,5 +1,5 @@
 export const Card = (cardsData) => {
-  
+
   console.log('cardsData',cardsData)
   
   const cardContent = cardsData.cardsData.map((card) => {
