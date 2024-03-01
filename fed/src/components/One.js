@@ -23,8 +23,8 @@ export const One = () => {
               </div>
             </a>
             <div className="row-span-3 relative">
-              <h1 className="md:text-3xl text-white border-b-2 border-b-white-600 pb-4">ANSWER YOUR BODY'S NEEDS</h1>
-              <p className="md:text-2xl text-white tracking-wider pb-6 lg:pb-10 pt-4">
+              <h1 className="font-openSans text-white border-b-2 border-b-white-600 pb-4 md:text-3xl">ANSWER YOUR BODY'S NEEDS</h1>
+              <p className="font-openSans font-thin text-white tracking-wider pb-6 lg:pb-10 pt-4 md:text-2xl">
                 The way ingredients are sourced affects the way we nourish our bodies. 
                 Author Mark Schatzer believes our body naturally develops
                 an appetite for the foods and nutrients it needs to be healthy, 
@@ -33,8 +33,8 @@ export const One = () => {
                 as your appetite guides you to consume according to your
                 body's needs.
               </p>
-              <h1 className="md:text-3xl text-white">BE MINDFUL</h1>
-              <p className="md:text-2xl:text-xl text-white tracking-wider pb-6 lg:pb-10">
+              <h1 className="font-openSans text-white md:text-3xl">BE MINDFUL</h1>
+              <p className="font-semibold font-openSans text-white tracking-wider pb-6 lg:pb-10 md:text-2xl ">
                 Sourcing local or organic food is good way to start being more mindful 
                 absolute what you're cooking and eating.
               </p>

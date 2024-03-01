@@ -4,6 +4,12 @@ module.exports = {
   content: [
     './src/**/*.{html,js,jsx}'
   ],
-  theme: {},
+  theme: {
+    extend: {
+      fontFamily: {
+        openSans: ["OpenSans", "OpenSans_Condensed","OpenSans_SemiCondensed"],
+      },
+    },
+  },
   plugins: [],
 };
