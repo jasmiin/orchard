@@ -19,7 +19,6 @@ function App() {
     <>
       <header>
         <title>{metaTitle}</title>
-        <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content={'Orchard'} />
         <meta name="description" content={'Orchard Desciption'} />
         <meta property="og:description" content={'Orchard Desciption'} />

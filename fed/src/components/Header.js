@@ -9,7 +9,7 @@ export const Header = () => {
             <h2 className="text-2xl font-bold text-gray-800 lg:text-3xl dark:text-white">Orchard</h2>
           </div>
           <menu href="#"
-            class="inline-block rounded-lg border bg-gray dark:bg-gray-700 dark:border-none px-4 py-2 text-center text-sm font-semibold text-gray-500 dark:text-gray-200 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 lg:px-8 lg:py-3 lg:text-base">
+            className="inline-block rounded-lg border bg-gray dark:bg-gray-700 dark:border-none px-4 py-2 text-center text-sm font-semibold text-gray-500 dark:text-gray-200 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 lg:px-8 lg:py-3 lg:text-base">
             Menu
           </menu>
         </div>
