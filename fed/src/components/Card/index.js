@@ -29,7 +29,7 @@ export const Card = (cardsData) => {
       return (
         <div className="grid gap-6 group col-span-3 xl:col-span-1" key={card?.id}>
           <div className="relative font-openSans">
-            <img src={require(`../../assets/two/${card?.image}`)} className="w-full border-b-8 border-b-red-600" />
+            <img src={require(`../../assets/two/${card?.image}`)} alt={card?.title} className="w-full border-b-8 border-b-red-600" />
             <h1 className="text-white md:text-2xl pt-4 font-semibold">{title}</h1>
             <p className="text-white md:text-2xl pt-4 pb-6">{description}</p>
             <button className="text-white md:text-2xl border-b-4 border-b-red-600"  onClick={() => {
@@ -49,7 +49,7 @@ export const Card = (cardsData) => {
                   <div class="sm:flex sm:items-start">
                     <div class="mt-3 text-center sm:mt-10 sm:text-left">
                       <div class="mt-2 font-openSans">
-                        <img src={require(`../../assets/two/${selectedCard?.image}`)} className="w-full border-b-8 border-b-red-600" />
+                        <img src={require(`../../assets/two/${selectedCard?.image}`)} alt={card?.title}  className="w-full border-b-8 border-b-red-600" />
                         <h1 className="text-black md:text-2xl pt-4 font-semibold">{selectedCard?.title}</h1>
                         <p className="text-black md:text-2xl pt-4 pb-6">{selectedCard?.description}</p>
                       </div>
